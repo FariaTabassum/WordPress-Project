@@ -1,0 +1,210 @@
+{
+    "manifest_version": "1.0.9",
+    "title": "Makeup Brand",
+    "page_builder": "elementor",
+    "kit_version": "2.0.1",
+    "templates": [
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1-bc637e1d881c613b98eb25aa5f9828f8.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 2 Pro",
+            "screenshot": "screenshots\/home-2-pro.jpg",
+            "source": "templates\/home-2-pro-0b4d3088e7a72d3696c71091fec5ade5.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 3",
+            "screenshot": "screenshots\/home-3.jpg",
+            "source": "templates\/home-3-27325adef400b5ae348a76f29b55451c.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 4 Pro",
+            "screenshot": "screenshots\/home-4-pro.jpg",
+            "source": "templates\/home-4-pro-3ececc954c6d070750e2b0b172b101d1.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us-815dd0abd90c6c23bcb4b87ca946cf8b.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us 2",
+            "screenshot": "screenshots\/about-us-2.jpg",
+            "source": "templates\/about-us-2-86182a41677a6369a22d69d4572cf9c4.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Skincare",
+            "screenshot": "screenshots\/skincare.jpg",
+            "source": "templates\/skincare-53678042ace297dbd499cfd6b6d6a9cf.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Products",
+            "screenshot": "screenshots\/our-products.jpg",
+            "source": "templates\/our-products-a0ee2fe46e05a86e2ef070252436388c.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Featured Products",
+            "screenshot": "screenshots\/featured-products.jpg",
+            "source": "templates\/featured-products-a973d763e5299a08f67f6e3ae6d85d5a.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq-8eaa849322e9be4b73a6a248bfa9a479.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Locations",
+            "screenshot": "screenshots\/our-locations.jpg",
+            "source": "templates\/our-locations-aedf82a609f2c648298ade18427d3b8e.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Help &amp; Support Pro",
+            "screenshot": "screenshots\/help-amp-support-pro.jpg",
+            "source": "templates\/help-amp-support-pro-3d8b5b55bd06628ffe1a2d05fbf945ca.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Coming Soon",
+            "screenshot": "screenshots\/coming-soon.jpg",
+            "source": "templates\/coming-soon-b1d814afd3672dc420fa63d8c18659f4.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Coming Soon Pro",
+            "screenshot": "screenshots\/coming-soon-pro.jpg",
+            "source": "templates\/coming-soon-pro-0c30daa8a89fabb4c1b426d2122e179c.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Popup",
+            "screenshot": "screenshots\/popup.jpg",
+            "source": "templates\/popup-6bf18e44e6e03e9f07727750bc8522ba.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "2.9.6",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "required_css": [
+        {
+            "name": "Custom CSS",
+            "description": "These styles are added to the WordPress Customizer.",
+            "file": "css\/customizer.css"
+        }
+    ],
+    "images": []
+}

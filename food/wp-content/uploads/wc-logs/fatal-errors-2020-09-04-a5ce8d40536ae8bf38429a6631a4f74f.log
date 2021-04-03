@@ -1,0 +1,2 @@
+2020-09-04T14:28:23+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 32768 bytes) in F:\Nabila\xampp\htdocs\project\food\wp-admin\includes\ajax-actions.php on line 3607
+

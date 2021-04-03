@@ -1,0 +1,173 @@
+/* Envato Custom CSS - classes are added to elements under Advanced tab */
+/* White carousel thumb background */
+small{font-size: 50%;}
+.envato-kit-31-carousel-thumb .slick-slide-image{background-color: #FFF;}
+
+/* Skewed elements */
+.skewed-left-down .elementor-widget-container {
+    transform: skewY(-10deg) skewX(20deg);
+}
+/* Gallery */
+.envato-kit-31-gallery .gallery{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+.envato-kit-31-gallery .gallery-item{
+	width: calc(33%);
+	height: 360px;
+	max-height: 360px;
+	overflow: hidden;
+}
+.envato-kit-31-gallery .gallery-item img{
+margin: 10px;
+	border-radius: 6px;
+
+}
+@media screen and (max-width:360px){
+	.envato-kit-31-gallery .gallery-item{
+	width: calc(100%);
+	height: 360px;
+	max-height: 360px;
+	overflow: hidden;
+}
+}
+/* Hide elements which overflow */
+.overflow-hidden {
+	overflow: hidden;
+}
+
+
+/* Price list single */
+.price-list .elementor-text-editor p {
+    border-bottom: 1px dashed #aaa;
+    padding-bottom: 5px;
+}
+
+/**
+ * Transform text vertically
+ * (only on desktop screens)
+ */
+@media screen and (min-width: 769px) {
+		
+	.vertical-text-outside .elementor-heading-title {
+			transform: rotate(90deg);
+			transform-origin: right;
+	}
+
+	.vertical-text-outside-left .elementor-heading-title {
+			transform: rotate(-90deg);
+			transform-origin: left top;
+	}
+	
+	.vertical-title .elementor-heading-title {
+		transform: rotate(90deg);
+		transform-origin: bottom left;
+	}
+		.vertical-title-2 .elementor-heading-title {
+		transform: rotate(-90deg);
+    transform-origin: top right;
+    right: 40px;
+    top: -40px;
+    position: absolute;
+    width: 1000%;
+	}
+	.vertical-title-3 .elementor-heading-title {
+		transform: rotate(-90deg);
+		transform-origin: right;
+	}
+}
+
+
+/* SECTIONS CSS */
+.dream-look .elementor-widget-image:hover {
+    position: relative;
+    z-index: 20 !important;
+}
+.dream-look .elementor-widget-image img {
+    transition: 0.3s;
+}
+.dream-look .elementor-widget-image:hover img {
+    transform: scale(1.05);
+}
+
+/* Services section*/
+.services .elementor-container {
+	height: 100%;
+}
+.elementor-page:not(.elementor-editor-active) .services .service-hover {
+	position: absolute;
+	top:20px;
+	bottom: 40px;
+	left: 20px;
+	right: 20px;
+	opacity: 0;
+	-webkit-transition: all 0.4s linear !important;
+    -moz-transition: all 0.4s linear !important;
+    transition: all 0.4s linear !important;
+	z-index:2;
+}
+
+.elementor-page:not(.elementor-editor-active) .services .service-hover:hover {
+	opacity: 1;
+	-webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+/* Custom outlines */
+.outline-outside:after, 
+.outline-outside.white:after,
+.outline-outside.dark:after
+{
+	content: "";
+	position: absolute;
+	display: block;
+	z-index: 1;
+	top: 40px;
+	left:-40px;
+	height: 100%;
+	width: 100%;
+	border: 5px solid rgba(255, 112, 170, 0.7);
+}
+.outline-outside-right:after {
+	content: "";
+	position: absolute;
+	display: block;
+	z-index: 1;
+	top: 40px;
+	right:-40px;
+	height: 100%;
+	width: 100%;
+	border: 5px solid rgba(255, 112, 170, 0.7);
+}
+.outline-outside.white:after,
+.outline-outside-right.white:after {
+	border: 5px solid rgba(255, 255, 255, 0.7);
+}
+.outline-outside.dark:after,
+.outline-outside-right.dark:after {
+	border: 5px solid rgba(0, 0, 0, 0.7);
+}
+@media screen and (max-width: 768px) {
+	.outline-outside:after, 
+	.outline-outside.white:after,
+	.outline-outside.dark:after{
+		top: 0;
+		left: 0;
+	}
+	.outline-outside-right:after,
+	.outline-outside-right.white:after,
+	.outline-outside-right.dark:after {
+		top: 0;
+		right: 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	.outline-outside:after,
+	.outline-outside-right:after 		{ display: none; }
+}
+/* end custom outlines */
